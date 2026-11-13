@@ -1,0 +1,4 @@
+interface:
+  display_name: "模型选择顾问"
+  short_description: "根据实际任务与可用模型推荐推理档位和速度，信息不足时先具体提问"
+  default_prompt: "请使用 $model-choice-advisor，根据我的任务，在实际可用的模型中推荐模型、推理档位和加速设置；信息不足时先具体提问，并解释质量、速度和用量取舍。"
